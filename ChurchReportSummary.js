@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Stake Youth
-// @namespace    https://ChurchOfJesusChrist.org/
+// @namespace    https://github.com/marcpage/ChurchReportSummary
 // @version      0.1
 // @description  Gather youth temple recommend statistics by unit
 // @author       Marc Page
