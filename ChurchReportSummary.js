@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stake Youth
 // @namespace    https://github.com/marcpage/ChurchReportSummary
-// @version      0.1
+// @version      0.2
 // @description  Gather youth temple recommend statistics by unit
 // @author       Marc Page
 // @updateURL    https://raw.githubusercontent.com/marcpage/ChurchReportSummary/main/ChurchReportSummary.js
@@ -13,9 +13,8 @@
 
 function get_table_data() {
     'use strict';
-    var table = document.getElementsByTagName("table")[0];
-    var headers = table.getElementsByTagName("thead")[0].getElementsByTagName("th");
-    var rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+    var tables = document.getElementsByTagName("table");
+    var headers = tables[0].getElementsByTagName("thead")[0].getElementsByTagName("th");
     var header_names = [];
     var information = [];
 
@@ -23,14 +22,19 @@ function get_table_data() {
         header_names.push(headers[header_index].innerText.trim());
     }
 
-    for (var row_index = 0; row_index < rows.length; ++row_index) {
-        var fields = rows[row_index].getElementsByTagName("td");
-        var record = {};
+    for (var table_index = 0; table_index < tables.length; ++table_index) {
+        var table = tables[table_index];
+        var rows = table.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
 
-        for (var field_index = 0; field_index < fields.length; ++field_index) {
-            record[header_names[field_index]] = fields[field_index].innerText.trim();
+        for (var row_index = 0; row_index < rows.length; ++row_index) {
+            var fields = rows[row_index].getElementsByTagName("td");
+            var record = {};
+
+            for (var field_index = 0; field_index < fields.length; ++field_index) {
+                record[header_names[field_index]] = fields[field_index].innerText.trim();
+            }
+            information.push(record);
         }
-        information.push(record);
     }
     return information;
 }
