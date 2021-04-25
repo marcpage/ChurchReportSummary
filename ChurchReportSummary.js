@@ -4,6 +4,8 @@
 // @version      0.1
 // @description  Gather youth temple recommend statistics by unit
 // @author       Marc Page
+// @updateURL    https://raw.githubusercontent.com/marcpage/ChurchReportSummary/main/ChurchReportSummary.js
+// @downloadURL  https://raw.githubusercontent.com/marcpage/ChurchReportSummary/main/ChurchReportSummary.js
 // @match        https://lcr.churchofjesuschrist.org/report/custom-reports-details/*
 // @icon         https://lcr.churchofjesuschrist.org/favicon.ico
 // @grant        none
