@@ -11,4 +11,9 @@ https://raw.githubusercontent.com/marcpage/ChurchReportSummary/main/ChurchReport
 
 And then click the Install button.
 
+Log into https://ChurchOfJesusChrist.org/ and go to the Leader and Clerk Resources under My Account and Ward.
+
+Under Reports go to Create a Report. Select an existing report or create a new report. When the report is shown, if a table does not appear after the report, then refresh the page.
+
+
 
