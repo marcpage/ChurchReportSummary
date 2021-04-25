@@ -16,4 +16,5 @@ Log into https://ChurchOfJesusChrist.org/ and go to the Leader and Clerk Resourc
 Under Reports go to Create a Report. Select an existing report or create a new report. When the report is shown, if a table does not appear after the report, then refresh the page.
 
 
+<img width="1156" alt="Screen Shot 2021-04-25 at 11 09 11 AM" src="https://user-images.githubusercontent.com/695749/116000688-e6d0b300-a5b6-11eb-914b-f1410acc3e64.png">
 
