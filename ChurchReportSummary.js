@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Stake Youth
+// @name         Church Report Summary
 // @namespace    https://github.com/marcpage/ChurchReportSummary
 // @version      0.2
-// @description  Gather youth temple recommend statistics by unit
+// @description  Summarize Church Report by various criteria.
 // @author       Marc Page
 // @updateURL    https://raw.githubusercontent.com/marcpage/ChurchReportSummary/main/ChurchReportSummary.js
 // @downloadURL  https://raw.githubusercontent.com/marcpage/ChurchReportSummary/main/ChurchReportSummary.js
